@@ -3,7 +3,7 @@
 _Bernhard Schäfl<sup>1</sup>, Lukas Gruber<sup>1</sup>,
 Angela Bitto-Nemling<sup>1, 2</sup>, Sepp Hochreiter<sup>1, 2</sup>_
 
-<sup>1</sup> ELLIS Unit Linz and LIT AI Lab, Institute for Machine Learning, Johannes Kepler University Linz, Austria  
+<sup>1</sup> ELLIS Unit Linz and LIT AI Lab, Institute for Machine Learning, Johannes Kepler University Linz, Austria
 <sup>2</sup> Institute of Advanced Research in Artificial Intelligence (IARAI)
 
 ---
@@ -68,7 +68,7 @@ $ hopular <mode> -h
 To display all available datasets, the `--datasets` flag has to be specified in the `list` mode.
 
 ```bash
-$ hopular list --datasets 
+$ hopular list --datasets
 ```
 
 Optimizing a Hopular model using the default hyperparameters is achieved by specifying the corresponding dataset in the
