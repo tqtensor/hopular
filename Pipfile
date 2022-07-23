@@ -12,6 +12,7 @@ hopfield-layers = {editable = true, git = "https://github.com/ml-jku/hopfield-la
 
 [dev-packages]
 black = "*"
+build = "*"
 flake8 = "*"
 isort = "*"
 pipfile-sort = "*"

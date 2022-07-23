@@ -1,0 +1,7 @@
+dist/
+.DS_Store
+hopular-*/
+hopular.egg-info/
+
+*.csv
+*.dat
