@@ -5,22 +5,22 @@ with open(r"README.md", mode=r"r") as readme_handle:
 
 setuptools.setup(
     name=r"hopular",
-    version=r"1.0.1",
+    version=r"1.0.3",
     author=r"Bernhard Schäfl",
     author_email=r"schaefl@ml.jku.at",
-    url=r"https://github.com/ml-jku/hopular",
+    url=r"https://github.com/tqtensor/hopular",
     description=r"A novel deep learning architecture based on continuous modern Hopfield networks"
     + r" for tackling small tabular datasets.",
     long_description=long_description,
     long_description_content_type=r"text/markdown",
     packages=setuptools.find_packages(),
-    python_requires=r">=3.8.0",
+    python_requires=r">=3.7.0",
     install_requires=[
         r"pytorch-lightning>=1.4.9",
         r"fairscale>=0.4.3",
         r"scikit-learn>=1.0.1",
         r"pandas>=1.3.3",
-        r"hopfield-layers@git+https://github.com/ml-jku/hopfield-layers",
+        r"hopfield-layers@git+https://github.com/tqtensor/hopfield-layers",
     ],
     zip_safe=True,
     include_package_data=True,

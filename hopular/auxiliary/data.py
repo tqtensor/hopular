@@ -304,7 +304,7 @@ class DataModule(LightningDataModule):
         if len(target_numeric) > 0:
             noise_mask[:, target_numeric] = True
 
-        return torch.cat(samples_modified, dim=1), noise_mask, *samples_collated
+        return (torch.cat(samples_modified, dim=1), noise_mask, *samples_collated)
 
     def _get_subset(self, indices: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
         """

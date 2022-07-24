@@ -8,7 +8,7 @@ fairscale = ">=0.4.3"
 pandas = ">=1.3.3"
 pytorch-lightning = ">=1.4.9"
 scikit-learn = ">=1.0.1"
-hopfield-layers = {editable = true, git = "https://github.com/ml-jku/hopfield-layers"}
+hopfield-layers = {editable = true, git = "https://github.com/tqtensor/hopfield-layers"}
 
 [dev-packages]
 black = "*"
@@ -19,4 +19,4 @@ pipfile-sort = "*"
 pre-commit = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
